@@ -144,7 +144,7 @@ closeallsong.addEventListener("click",()=>{
 })
 
 for(let i=0;i<mymusic.length;i++){
-    let lis = ` <li  li-index="${i}">
+    let lis = ` <li  li-index="${i+1}">
     <div class="row">
       <span>${mymusic[i].name}</span>
       <p>${mymusic[i].artist}</p>
